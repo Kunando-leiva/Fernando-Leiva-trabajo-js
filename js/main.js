@@ -4,7 +4,7 @@ const productos = [
     {
         id: "tinto-01",
         titulo: "barda pinot noir 750",
-        imagen: "../img/vinos tintos/barda-pinot-noir-750cc.jpg",
+        imagen: "./img/vinos tintos/barda-pinot-noir-750cc.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -24,7 +24,7 @@ const productos = [
     {
         id: "tinto-03",
         titulo: "mosquita muerta blend tintas 750",
-        imagen: "../img/vinos tintos/mosquita-muerta-blend-tintas-750cc.jpg",
+        imagen: "./img/vinos tintos/mosquita-muerta-blend-tintas-750cc.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -34,7 +34,7 @@ const productos = [
     {
         id: "tinto-04",
         titulo: "perro callejero blend de malbec 750",
-        imagen: "../img/vinos tintos/peroo-callejero-blend-de-malbec-750cc.jpg",
+        imagen: "./img/vinos tintos/peroo-callejero-blend-de-malbec-750cc.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -44,7 +44,7 @@ const productos = [
     {
         id: "tinto-05",
         titulo: "pispi blend de tintas 750",
-        imagen: "../img/vinos tintos/pispi-blend-de-tintas-750cc.jpg",
+        imagen: "./img/vinos tintos/pispi-blend-de-tintas-750cc.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -54,7 +54,7 @@ const productos = [
     {
         id: "tinto-06",
         titulo: "sapo de otro pozo blend de tintas 750",
-        imagen: "../img/vinos tintos/sapo-de-otro-pozo-blend-de-tintas-750cc.jpg",
+        imagen: "./img/vinos tintos/sapo-de-otro-pozo-blend-de-tintas-750cc.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -64,7 +64,7 @@ const productos = [
     {
         id: "tinto-07",
         titulo: "bressia piel negra pinot noir 750",
-        imagen: "../img/vinos tintos/vino-bressia-piel-negra-pinot-noir-750.jpg",
+        imagen: "./img/vinos tintos/vino-bressia-piel-negra-pinot-noir-750.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -74,7 +74,7 @@ const productos = [
     {
         id: "tinto-08",
         titulo: "dada cabernet sauvignon 750",
-        imagen: "../img/vinos tintos/vino-dada-cabernet-sauvignon-750.jpg",
+        imagen: "./img/vinos tintos/vino-dada-cabernet-sauvignon-750.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -84,7 +84,7 @@ const productos = [
     {
         id: "tinto-09",
         titulo: "luigui bosca de sangre blend 750",
-        imagen: "../img/vinos tintos/vino-l-bosca-de-sangre-blend-750.jpg",
+        imagen: "./img/vinos tintos/vino-l-bosca-de-sangre-blend-750.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -93,7 +93,7 @@ const productos = [
     }, {
         id: "tinto-10",
         titulo: "rutini malbec merlot cabernet malbec 750",
-        imagen: "../img/vinos tintos/vino-rutini-malbec-merlot-cabernet-malbec-750-.jpg",
+        imagen: "./img/vinos tintos/vino-rutini-malbec-merlot-cabernet-malbec-750-.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -102,7 +102,7 @@ const productos = [
     }, {
         id: "tinto-11",
         titulo: "Cordero Piel Lobo Malbec 750.jpg",
-        imagen: "../img/vinos tintos/Cordero Piel Lobo Malbec 750.jpg",
+        imagen: "./img/vinos tintos/Cordero Piel Lobo Malbec 750.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"
@@ -115,7 +115,7 @@ const productos = [
     {
         id: "blanco-01",
         titulo: "tribu blanco dulce 750",
-        imagen: "../img/vinos blancos/be74092trivento-tribu-blanco-dulce-750.jpg",
+        imagen: "./img/vinos blancos/be74092trivento-tribu-blanco-dulce-750.jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -125,7 +125,7 @@ const productos = [
     {
         id: "blanco-02",
         titulo: "el bautismo blend blanc dulce 750",
-        imagen: "../img/vinos blancos/el-bautismo-blend-blanc-dulce-750..jpg",
+        imagen: "./img/vinos blancos/el-bautismo-blend-blanc-dulce-750..jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -135,7 +135,7 @@ const productos = [
     {
         id: "blanco-03",
         titulo: "fuzion alta sweet 750",
-        imagen: "../img/vinos blancos/fuzion-alta-sweet-750.jpg",
+        imagen: "./img/vinos blancos/fuzion-alta-sweet-750.jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -145,7 +145,7 @@ const productos = [
     {
         id: "blanco-04",
         titulo: "la poderosa dulce natural 750",
-        imagen: "../img/vinos blancos/la-poderosa-dulce-natural-750.jpg",
+        imagen: "./img/vinos blancos/la-poderosa-dulce-natural-750.jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -155,7 +155,7 @@ const productos = [
     {
         id: "blanco-05",
         titulo: "las perdices partidge dulce 750",
-        imagen: "../img/vinos blancos/las-perdices-partidge-dulce-750.jpg",
+        imagen: "./img/vinos blancos/las-perdices-partidge-dulce-750.jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -165,7 +165,7 @@ const productos = [
     {
         id: "blanco-06",
         titulo: "nina dulce natural moscato giallo 500",
-        imagen: "../img/vinos blancos/nina-dulce-natural-moscato-giallo-500.jpg",
+        imagen: "./img/vinos blancos/nina-dulce-natural-moscato-giallo-500.jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -175,7 +175,7 @@ const productos = [
     {
         id: "blanco-07",
         titulo: "vino alamos moscatel 750",
-        imagen: "../img/vinos blancos/vino-alamos-moscatel-750.jpg",
+        imagen: "./img/vinos blancos/vino-alamos-moscatel-750.jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -185,7 +185,7 @@ const productos = [
     {
         id: "blanco-08",
         titulo: "amalaya dulce torrontes riesling 750",
-        imagen: "../img/vinos blancos/amalaya-dulce-torrontes-riesling-750.jpg",
+        imagen: "./img/vinos blancos/amalaya-dulce-torrontes-riesling-750.jpg",
         categoria: {
             nombre: "blancos",
             id: "blancos"
@@ -196,7 +196,7 @@ const productos = [
     {
         id: "espirituosas-01",
         titulo: "baileys-salted-caramel-750",
-        imagen: "../img/Espirituosas/baileys-salted-caramel-750.jpg",
+        imagen: "./img/Espirituosas/baileys-salted-caramel-750.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -206,7 +206,7 @@ const productos = [
     {
         id: "espirituosas-02",
         titulo: "brockmans-intensely-smooth-premium-gin-700",
-        imagen: "../img/Espirituosas/brockmans-intensely-smooth-premium-gin-700.jpg",
+        imagen: "./img/Espirituosas/brockmans-intensely-smooth-premium-gin-700.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -216,7 +216,7 @@ const productos = [
     {
         id: "espirituosas-03",
         titulo: "fernet-branca-1000",
-        imagen: "../img/Espirituosas/fernet-branca-1000.jpg",
+        imagen: "./img/Espirituosas/fernet-branca-1000.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -226,7 +226,7 @@ const productos = [
     {
         id: "espirituosas-04",
         titulo: "gin-hendrick-750",
-        imagen: "../img/Espirituosas/gin-hendrick-750.jpg",
+        imagen: "./img/Espirituosas/gin-hendrick-750.jpg",
         categoria: {
             nombre: "espirituosass",
             id: "espirituosas"
@@ -236,7 +236,7 @@ const productos = [
     {
         id: "espirituosas-05",
         titulo: "Johnnie Walker White 1000",
-        imagen: "../img/Espirituosas/Johnnie Walker White 1000.jpg",
+        imagen: "./img/Espirituosas/Johnnie Walker White 1000.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -246,7 +246,7 @@ const productos = [
     {
         id: "espirituosas-06",
         titulo: "licor-baileys-750",
-        imagen: "../img/Espirituosas/licor-baileys-750.jpg",
+        imagen: "./img/Espirituosas/licor-baileys-750.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -256,7 +256,7 @@ const productos = [
     {
         id: "espirituosas-07",
         titulo: "sheridan-s-750",
-        imagen: "../img/Espirituosas/sheridan-s-750-cc.jpg",
+        imagen: "./img/Espirituosas/sheridan-s-750-cc.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -266,7 +266,7 @@ const productos = [
     {
         id: "espirituosas-08",
         titulo: "tequila-patron-anejo-375",
-        imagen: "../img/Espirituosas/tequila-patron-anejo-375.jpg",
+        imagen: "./img/Espirituosas/tequila-patron-anejo-375.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -276,7 +276,7 @@ const productos = [
     {
         id: "espirituosas-09",
         titulo: "whisky-j-walker-18-a-ultimate-750-estuche",
-        imagen: "../img/Espirituosas/whisky-j-walker-18-a-ultimate-750-estuche.jpg",
+        imagen: "./img/Espirituosas/whisky-j-walker-18-a-ultimate-750-estuche.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
@@ -286,7 +286,7 @@ const productos = [
     {
         id: "espirituosas-10",
         titulo: "whisky-j-walker-blue-750-estuche",
-        imagen: "../img/Espirituosas/whisky-j-walker-blue-750-estuche.jpg",
+        imagen: "./img/Espirituosas/whisky-j-walker-blue-750-estuche.jpg",
         categoria: {
             nombre: "espirituosas",
             id: "espirituosas"
