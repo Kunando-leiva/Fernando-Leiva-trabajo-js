@@ -1,27 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="todo lo que necesitas para un regalo lo encontras aca">
+    <title>Viking Vinos</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
 
-    <title>preEntrega1/leiva-fernando</title>
-</head>
-<body>
-    <h1>HOLA BIENVENIDO</h1>
 
+<body class="body" background="./img/wallpaperflare.com_wallpaper(1).jpg">
 
+  <header class="menu-header navbar navbar-expand-lg">
+    
+    <div class="logo">
+      <img class="logo-img" src="./img/Viking-PNG-Pic-Clip-Art-Background.png" alt="">
+      <h1>Viking Vinos</h1>
+    </div>
 
-   
-
-   
-  
-   <!-- <script src="./cargadeusuarios.js"></script> 
-    <script src="./datos.js"></script> -->
-    <script src="./sweet.js"></script>
     
 
+  </header>
+  
+  <main>
 
+    <section class="bienvenidos">
+      <h2>Bienvenidos</h2>
+      <p>Por su color: se sirven antes los blancos que los tintos, siendo intermedios los rosados. 
+      – Por su edad: se sirven los más jóvenes y luego los más añejos.
+      – Por su sabor: primero se sirven los más suaves (de menos cuerpo y graduación) 
+        y luego los más intensos (de más cuerpo y graduación)</p>
+    </section>
+
+    <section class="descorche">
+      <h2>Descorche</h2>
+      <p>El descorche es el acto de abrir una botella de vino, una auténtica ceremonia para los aficionados a esta bebida.
+        En el mundo de la gastronomía, también se llama descorche al servicio pago de abrir una botella de 
+        vino llevada por el comensal que ofrecen algunos restaurantes.</p>
+    </section>
+
+
+      <div class="wrapper">
+        
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button  id="todos" class="boton-menu boton-categoria"> Todos los productos
+                          <img class="imagen-boton" src="./img/botones/vino_tinto_rioja.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button id="tintos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Tintos
+                          <img class="imagen-boton" src="./img/botones/vino_tinto_rioja.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button id="blancos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Blancos
+                          <img class="imagen-boton" src="./img/botones/depositphotos_5374778-stock-photo-various-sorts-of-cheese-and.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <button id="espirituosas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Espirituosas
+                          <img class="imagen-boton" src="./img/botones/bebidas espirituosas.jpg" alt="">
+                        </button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                           Carrito 
+                           <i class="img-carrito bi bi-cart-fill"></i>
+                           <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+          
+        
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos"></div>
+        </main>
+    </div>
+    
+    <script src="./js/main.js"></script>
+    <footer>
+      <p class="texto-footer">© Vikings Vinos</p>
+  </footer>
 </body>
+
 </html>
