@@ -14,7 +14,7 @@ const productos = [
     {
         id: "tinto-02",
         titulo: "dv catena cabernet malbec 750",
-        imagen: "../img/vinos tintos/dv-catena-cabernet-malbec-750.jpg",
+        imagen: "./img/vinos tintos/dv-catena-cabernet-malbec-750.jpg",
         categoria: {
             nombre: "Tintos",
             id: "tintos"

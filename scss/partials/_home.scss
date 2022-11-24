@@ -3,9 +3,9 @@
     background-color: rgb(130, 138, 28);
     color: rgb(241, 236, 236);
     width: 100%;
-    height: 30%;
+    height: 20%;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
    
@@ -22,7 +22,15 @@
 .logo{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.logo-img{
+    height: 20%;
+    width: 20%;
+    align-items: center;
+    
 }
 
 
@@ -143,9 +151,21 @@ p{
     gap: 1rem;
 }
 
-.producto-imagen{
+.producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
     max-width: 100%;
+    max-height: 100%;
+} 
+
+.producto-imagen{
+  
+    margin: 0%;
     border-radius: 1rem;
+    height: 80%;
+    width: 80%;
     
 }
 
@@ -156,12 +176,14 @@ p{
     color: beige;
     padding: .4rem;
     border-radius: 1rem;
-    margin-top: -0.6rem;
+    margin-top: -0.5rem;
     position: relative;
     display: flex;
     flex-direction: column;
     gap: .25rem;
     margin-inline: 0.7rem;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .producto-titulo {
