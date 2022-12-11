@@ -11,6 +11,9 @@ const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito-acciones-comprar");
 
 
+
+
+
 function cargarProductosCarrito() {
     if (productosEnCarrito && productosEnCarrito.length > 0) {
 
@@ -32,8 +35,10 @@ function cargarProductosCarrito() {
                     <h3>${producto.titulo}</h3>
                 </div>
                 <div class="carrito-producto-cantidad">
-                    <small>Cantidad</small>
-                    <p>${producto.cantidad}</p>
+                <span class="resta">-</span>
+                    <small >Cantidad</small>
+                    <span class="suma">+</span>
+                    <p class="carrito-cantidad">${producto.cantidad}</p>
                 </div>
                 <div class="carrito-producto-precio">
                     <small>Precio</small>
@@ -47,6 +52,28 @@ function cargarProductosCarrito() {
             `;
     
             contenedorCarritoProductos.append(div);
+
+
+
+
+            
+
+
+            let resta=div.querySelector(".resta")
+             resta.addEventListener("click",() => {
+                if(producto.cantidad !== 1){
+                producto.cantidad--;
+                }
+                cargarProductosCarrito();
+            });
+
+
+            
+            let suma=div.querySelector(".suma")
+            suma.addEventListener("click",() => {
+                producto.cantidad++;
+                cargarProductosCarrito();
+            });
         })
     
     } else {
@@ -61,6 +88,7 @@ function cargarProductosCarrito() {
 }
 
 cargarProductosCarrito();
+
 
 function actualizarBotonesEliminar() {
     botonesEliminar = document.querySelectorAll(".carrito-producto-eliminar");
@@ -78,7 +106,6 @@ function eliminarDelCarrito(e) {
     cargarProductosCarrito();
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-
 }
 
 botonVaciar.addEventListener("click", vaciarCarrito);
@@ -106,3 +133,4 @@ function comprarCarrito() {
     contenedorCarritoComprado.classList.remove("disabled");
 
 }
+

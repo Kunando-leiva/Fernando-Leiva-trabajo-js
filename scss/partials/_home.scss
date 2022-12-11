@@ -38,7 +38,7 @@
 .boton-menu {
     background-color:transparent;
     border: 0;
-    color: black;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -50,6 +50,12 @@
     margin-top: 10%;
     border-radius: 1rem;
     font-weight: 800;
+}
+
+
+
+.boton-categoria{
+    background-color: rgba(240, 248, 255, 0.589);
 }
 
 .imagen-boton{
@@ -85,6 +91,8 @@ ul{
 
 .img-carrito{
     font-size: 4rem;
+    border-radius: .25rem;
+    padding: .15rem;
 }
 
 .titulo-principal {
@@ -162,10 +170,8 @@ p{
 
 .producto-imagen{
   
-    margin: 0%;
+    max-width: 100%;
     border-radius: 1rem;
-    height: 80%;
-    width: 80%;
     
 }
 
@@ -173,17 +179,18 @@ p{
 
 .producto-detalles{
     background-color:rgb(60, 13, 23);
+    height: 100%;
+    width: 100%;
     color: beige;
-    padding: .4rem;
+    padding: 1rem;
     border-radius: 1rem;
-    margin-top: -0.5rem;
+    margin-top: -0.6rem;
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: .25rem;
+    gap: .10rem;
     margin-inline: 0.7rem;
-    max-width: 100%;
-    max-height: 100%;
+  
 }
 
 .producto-titulo {

@@ -37,7 +37,7 @@
 .boton-menu {
   background-color: transparent;
   border: 0;
-  color: black;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -49,6 +49,10 @@
   margin-top: 10%;
   border-radius: 1rem;
   font-weight: 800;
+}
+
+.boton-categoria {
+  background-color: rgba(240, 248, 255, 0.589);
 }
 
 .imagen-boton {
@@ -75,6 +79,8 @@ ul {
 
 .img-carrito {
   font-size: 4rem;
+  border-radius: 0.25rem;
+  padding: 0.15rem;
 }
 
 .titulo-principal {
@@ -138,25 +144,23 @@ ul {
 }
 
 .producto-imagen {
-  margin: 0%;
+  max-width: 100%;
   border-radius: 1rem;
-  height: 80%;
-  width: 80%;
 }
 
 .producto-detalles {
   background-color: rgb(60, 13, 23);
+  height: 100%;
+  width: 100%;
   color: beige;
-  padding: 0.4rem;
+  padding: 1rem;
   border-radius: 1rem;
-  margin-top: -0.5rem;
+  margin-top: -0.6rem;
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.1rem;
   margin-inline: 0.7rem;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .producto-titulo {
@@ -188,8 +192,8 @@ ul {
 
 .carrito-vacio,
 .carrito-comprado {
-  background-color: aqua;
-  color: rgb(19, 141, 46);
+  background-color: rgb(129, 79, 14);
+  color: rgb(255, 255, 255);
   padding: 20px;
   margin: 15%;
   text-align: center;
@@ -201,6 +205,10 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.carrito-cantidad {
+  text-align: center;
 }
 
 .carrito-producto {
@@ -275,6 +283,26 @@ ul {
 
 .disabled {
   display: none;
+}
+
+.boton-volver {
+  background-color: rgba(240, 248, 255, 0.596);
+  padding: 0.2rem;
+}
+
+.boton-carrito {
+  background-color: rgba(240, 248, 255, 0.699);
+  padding: 0.2rem;
+}
+
+.suma {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.resta {
+  cursor: pointer;
+  background-color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */
