@@ -1,0 +1,76 @@
+.body-clima{
+    background-color: rgb(40, 38, 38);
+}
+
+.busqueda-form{
+    margin: 20px 20px;
+}
+.busquedabox{
+    padding: 10px 20px;
+    background-color: beige;
+    max-width: 480px;
+    margin: 0px auto;
+    border-radius: 3px;
+}
+
+.busqueda{
+    width: 100%;
+    background-color: beige;
+    border: none;
+    font-size: 1rem;
+}
+
+.busqueda:focus{
+    outline: none;
+}
+
+.tarjeta-clima{
+    width: 20%;
+    color: blue;
+    background-color: rgba(87, 93, 104, 0.589);
+    padding: 20px;
+    text-align: center;
+    border-radius: 13px;
+    margin-left: 38%;
+    margin-top: 20%;
+    display: none;
+
+}
+.ciudad{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.fecha{
+    font-size: 0.9rem;
+    margin-bottom: 2rem ;
+}
+
+.temp-img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.temperatura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+     
+}
+.temp{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.clima{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+.clima-volver{
+    background-color: rgba(59, 59, 59, 0.644);
+    padding: 2%;
+}
